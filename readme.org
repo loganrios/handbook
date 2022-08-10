@@ -20,6 +20,7 @@ This repository should be writable by /any/ members of the team, so if you notic
 + Text styling: https://reactnative.dev/docs/text-style-props
 + Layout help: https://reactnative.dev/docs/layout-props
 + CLJS TextInput lag: https://increasinglyfunctional.com/2019/03/28/why-clojurescript-react-native-text-input-slow.html
+** Expo
 ** React Native Paper
 We currently use v4, but we expect a migration to v5 once that stabilizes.
 + https://callstack.github.io/react-native-paper/4.0/index.html
@@ -48,6 +49,8 @@ We currently use v4, but we expect a migration to v5 once that stabilizes.
 * Version Control
 ** Git
 + https://git-scm.com/book/en/v2
+** Commit Style
++ https://www.conventionalcommits.org/en/v1.0.0/
 ** Trunk-based Development
 + https://trunkbaseddevelopment.com/
 ** Rule: DO NOT commit secret information
