@@ -1,0 +1,66 @@
+#+title: Keionsoft Developer Handbook
+
+This is the master document for developing on Keionsoft projects, containing rules, guides, FAQs, and general workflow tips.
+
+If you've just been brought on, feel free skim this file, then keep it on hand as you go through your training and first few projects. There are a handful of hard-set rules that you must remember, but most of this document exists as a sort of public wiki for us to help each other along the way.
+
+This repository should be writable by /any/ members of the team, so if you notice something wrong, or want to add a new section, feel free to do so! The goal is to make this a living, breathing source of reference, that grows as we grow.
+
+* Getting Started
+** Operating System
+
+* System Design
++ When components stray from the "happy path": https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85#.j52018nod
++ Twelve Factor App (most of it is good, though we deviate in several key ways): https://12factor.net/
++ Doom Emacs cheat sheet: https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html#org7465159
+* Frontend
+** React
++ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+** React Native
++ Text styling: https://reactnative.dev/docs/text-style-props
++ Layout help: https://reactnative.dev/docs/layout-props
++ CLJS TextInput lag: https://increasinglyfunctional.com/2019/03/28/why-clojurescript-react-native-text-input-slow.html
+** React Native Paper
+We currently use v4, but we expect a migration to v5 once that stabilizes.
++ https://callstack.github.io/react-native-paper/4.0/index.html
+** MUI Core (formerly Material UI)
++ Components: https://mui.com/material-ui/getting-started/overview/
++ Styling: https://mui.com/system/basics/
+** ClojureScript
+** Shadow-CLJS
+** Reagent
++ Free video course: https://www.jacekschae.com/learn-reagent-free
+** Re-frame
++ Free video course: https://www.jacekschae.com/learn-re-frame-free
++ https://ericnormand.me/guide/re-frame-building-blocks
+
+* Backend
+** REST APIs
++ Video introduction: https://www.youtube.com/watch?v=-MTSQjw5DrM
+** Clojure
++ Entry-level book with exercises: https://www.braveclojure.com/
++ Simple exercises (all online): https://4clojure.oxal.org/
+** Pedestal
+** Component
+** XTDB
++ Fun, interactive, sci-fi tutorial: https://nextjournal.com/xtdb-tutorial
+
+* Version Control
+** Git
++ https://git-scm.com/book/en/v2
+** Trunk-based Development
++ https://trunkbaseddevelopment.com/
+** Rule: DO NOT commit secret information
+Under absolutely /zero/ circumstances should you commit anything resembling private data. This includes:
++ usernames
++ passwords
++ API keys
++ database credentials
++ links to production databases
++ links to development databases
++ etc.
+
+As best as you can, err extremely on the side of caution. This is one of the prime ways that hackers target developers to steal data from users and business owners. It's very difficult to undo when accidentally done--making one of Git's strengths a huge weakness. When in doubt, ask your senior developer.
+
+* For Future Consideration
++ A CLJS React interface that's simpler than Reagent: https://github.com/lilactown/helix
