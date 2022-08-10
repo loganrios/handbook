@@ -54,7 +54,7 @@ We currently use v4, but we expect a migration to v5 once that stabilizes.
 ** Trunk-based Development
 + https://trunkbaseddevelopment.com/
 ** Rule: DO NOT commit secret information
-Under absolutely /zero/ circumstances should you commit anything resembling private data. This includes:
+Under absolutely /zero/ circumstances should you commit anything relating to real private data. This includes:
 + usernames
 + passwords
 + API keys
