@@ -40,6 +40,7 @@ We currently use v4, but we expect a migration to v5 once that stabilizes.
 ** Clojure
 + Entry-level book with exercises: https://www.braveclojure.com/
 + Simple exercises (all online): https://4clojure.oxal.org/
++ Clojure.spec entry-level guide: https://clojure.org/guides/spec
 ** Pedestal
 ** Component
 ** XTDB
