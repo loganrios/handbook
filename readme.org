@@ -41,8 +41,10 @@ We currently use v4, but we expect a migration to v5 once that stabilizes.
 ** Clojure
 + Entry-level book with exercises: https://www.braveclojure.com/
 + Simple exercises (all online): https://4clojure.oxal.org/
-** Pedestal
-** Component
+
+** Reitit + Integrant
++ Canonical demo app: https://github.com/prestancedesign/usermanager-reitit-example
+** Pedestal + Component
 ** XTDB
 + Fun, interactive, sci-fi tutorial: https://nextjournal.com/xtdb-tutorial
 
